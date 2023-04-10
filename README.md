@@ -3,6 +3,7 @@ A simple and lightweight script to set a custom homepage, both local and webpage
 
 ![BeyondMagic's Homepage](/main.png?raw=trueg)  
 source: BeyondMagic's Homepage  
+     
 ![BeyondMagic's Homepage Search](/search_preview.gif?raw=trueg)  
 source: BeyondMagic's Homepage  
 
