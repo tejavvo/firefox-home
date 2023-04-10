@@ -1,0 +1,183 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  color: #F5FBEF;
+  font-size: 14px;
+  font-family: Consolas, monaco, monospace;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: inline;
+  margin:0% 300px;
+}
+
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('file:///home/teja/.config/firefox-homepage/lib/1.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(25%);
+  z-index: -2;
+}
+
+#wel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#wel > div {
+  white-space: pre;
+}
+
+#wel #ctime {
+  margin-top: 1rem;  
+} 
+
+#search:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  user-select: none;
+}
+
+#container {
+  z-index: 5;
+  position: absolute;
+  padding: 0px;
+  top: 35%;
+  margin: 0% 22%;
+  width: 60%;
+  height: auto;
+}
+
+#header {
+  z-index: 10;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0, .1);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0, .1);
+  box-shadow: 1px 1px 4px 0px rgba(0,0,0, .1);
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  background-color: transparent;
+}
+
+
+#links {
+  display: -moz-box;
+  display: -webkit-box;
+  width: 100%;
+}
+
+.linksbox {
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0, .1);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0, .1);
+  box-shadow: 1px 1px 4px 0px rgba(0,0,0, .1);
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  background-color: transparent;
+}
+
+.linksin {
+  max-height: 10rem;
+  overflow-y: auto;
+  scrollbar-width: none;
+  scrollbar-height: none;
+}
+
+.linksbox h3 {
+  padding-bottom: 5px;
+}
+
+.linksbox a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.linksbox a::before {
+  content: '├ ';
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.linksbox a:focus,
+.linksbox a:hover {
+  font-style: italic;
+  color: auto;
+  outline: none;
+  opacity: 1;
+}
+
+#ctime {
+  font-size: 15px;
+}
+
+h3 {
+  font-size: 14px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.blue, .green, .gray, .cyan { padding: 0; }
+.blue { color: #708ca4; }
+.green { color: #94C9A9; }
+.lightcyan { color: #59cf93; }
+.gray { color: inherit; opacity: 0.75; }
+.cyan { color: #2b4e95; opacity: 1; }
+
+form {
+  display: inline;
+}
+
+input {
+  display: inline;
+  background: none;
+  display: inline;
+  border: none;
+  color: #F5FBEF;
+  width: 70%;
+  font-size: 14px;
+  font-family: Consolas, monaco, monospace;
+}
+
+input:focus {
+  outline: none;
+}
+
+#quoteheader {
+  position: absolute;
+  display: flex;
+  bottom: 4rem;
+  width: 60%;
+  margin: 0% 20%;
+  word-wrap: break-word;
+  flex-direction: column;
+  text-align: center;
+}
+
+#quote {
+  word-wrap: inherit;
+  margin: auto 0;
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+#infquote {
+  margin: auto 0;
+  white-space: pre-line;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+    .1 {
+        display: none;
+    }
+}

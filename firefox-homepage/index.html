@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script type="text/javascript" src="./lib/quotes.js"></script>
+    <script defer type="text/javascript" src="./lib/script.js"></script>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./lib/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body onload="start()" onclick="document.getElementById('input').focus()">
+    <div id="background"></div>
+    <div>
+        <div id="wel">
+<div>
+   -=-     
+(\     /)
+( \___/ )
+(       )
+ `>    <´
+ /      \
+ `-._.-´ 
+</div>
+            <span class="gray" id="ctime"></span>
+            <span class="gray">Welcome Teja!</span>
+        </div>
+        <div id="quoteheader">
+            <p class="gray" id="quote"></p>
+            <span id="infquote"><span id="author"></span></span>
+        </div>
+
+        <div id="container">
+            <div id="header">
+                <h3 style="display: inline;">
+                    <span class="green"> > </span>
+                    <span id="search" class="gray" onclick="changeQuery()">google</span>
+                </h3>
+                <form id="form" method="get" autocomplete="off" action="https://www.google.com/search">
+                    <input id="input" type="text" autofocus="autofocus" name="q"\>
+                </form>
+            </div>
+            <div id="links">
+                <div class="linksbox" id="2">
+                    <h3>
+                        <span class="green"> > </span>
+                        <span class="lightgray">School</span>
+                    </h3>
+                    <a class="gray" href="https://openstax.org/subjects">Open Stax</a>
+                    <a class="gray" href="https://www.khanacademy.org/">Khan Academy</a>
+                    <a class="gray" href="file:///home/teja/NCERT/index.html">NCERT</a>
+                    <a class="gray" href="https://www.cliffsnotes.com/study-guides">Cliff Notes</a>
+
+                </div>
+                <div class="linksbox" id="1">
+                    <h3>
+                        <span class="green"> > </span>
+                        <span class="lightgray">Development</span>
+                    </h3>
+                    <a class="gray" href="https://itch.io/">Itch.io</a>
+                    <a class="gray" href="https://sketchfab.com/feed">Sketchfab</a>
+                    <a class="gray" href="https://www.kaggle.com/learns">Kaggle</a>
+                    <a class="gray" href="https://www.circuito.io/app">Circuito.io</a>
+                    <a class="gray" href="https://solarianprogrammer.com/2018/11/19/cpp-reading-writing-bmp-images/">BMP.h</a>
+
+                </div>
+                <div class="linksbox" id="3">
+                    <h3>
+                        <span class="green"> > </span>
+                        <span class="lightgray">General</span>
+                    </h3>
+                    <a class="gray" href="file:///home/teja/">Home</a>
+                    <a class="gray" href="http://192.168.1.2:5000/">Diskbox</a>
+                    <a class="gray" href="https://libgen.is/">Library</a>
+                    <a class="gray" href="https://www.freecodecamp.org/news/how-to-install-arch-linux/">ArchLinux</a>
+                    <a class="gray" href="https://drive.google.com/drive/u/0/folders/1NFTRLDQLvRMbUHQkSodykVq4A4_GUVwE">Foundation</a>
+                    <a class="gray" href="https://www.notion.so/bombombakudan/4cf78c5c357942d58d77b7f0d1eedcfb?v=640827aaecf14e62905045d2c3bad284">Notion</a>
+
+                </div>
+                <div class="linksbox" id="1">
+                    <h3>
+                        <span class="green"> > </span>
+                        <span class="lightgray">Docs</span>
+                    </h3>
+                    <a class="gray" href="https://docs.godotengine.org/en/stable/">Godot</a>
+                    <a class="gray" href="https://latex-cookbook.net/">LaTeX</a>
+                    <a class="gray" href="https://aur.archlinux.org/">AUR</a>
+                    <a class="gray" href="https://en.cppreference.com/w/">C++</a>
+                    <a class="gray" href="https://docs.python.org/3/">Python</a>
+
+                </div>
+                <div class="linksbox" id="2">
+                    <h3>
+                        <span class="green"> > </span>
+                        <span class="lightgray">Entertainment</span>
+                    </h3>
+                    <a class="gray" href="https://www.youtube.com/">Youtube</a>
+                    <a class="gray" href="https://9animetv.to/home">9 Anime</a>
+                    <a class="gray" href="https://www.primevideo.com/">Prime Video</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
