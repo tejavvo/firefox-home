@@ -1,9 +1,10 @@
 # dotfiles
 A simple and lightweight script to set a custom homepage, both local and webpages for firefox
 
-![BeyondMagic's Homepage](/main.png?raw=trueg)
-
-![BeyondMagic's Homepage Search](/search_preview.gif?raw=trueg)
+![BeyondMagic's Homepage](/main.png?raw=trueg)  
+source: BeyondMagic's Homepage  
+![BeyondMagic's Homepage Search](/search_preview.gif?raw=trueg)  
+source: BeyondMagic's Homepage  
 
 The Hompage given is a webpage, meaning any amount of customisation is allowed. The default provided homepage is a striped down version of [BeyondMagic's Homepage](https://github.com/BeyondMagic/homepage), with an addition of slightly over a 100 quotes.
 
