@@ -2,8 +2,7 @@
 A simple and lightweight script to set a custom homepage, both local and webpages for firefox
 
 ![BeyondMagic's Homepage](/main.png?raw=trueg)  
-source: BeyondMagic's Homepage  
-     
+<br></br>
 ![BeyondMagic's Homepage Search](/search_preview.gif?raw=trueg)  
 source: BeyondMagic's Homepage  
 
